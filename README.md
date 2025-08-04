@@ -34,6 +34,23 @@ The following packages have to be installed for the code to run properly:
   
 For the code to work properly, all the scripts have to be located in the root directory of the project. The data is stored in a folder named "data" in the root directory of the project.
 
+## Visualizations
+
+### Collusion Networks 1975-1992:
+The width of the edge shows the magnitude of the calculated collusion score between the connected countries (vertices). 
+![Collusion Networds 1975-1992](https://github.com/kuma-rtin/eurovision_voting/raw/main/visualizations/collusions_1975-1992.png "Collusion Networds 1975-1992")
+
+### Collusion Networks 1993-2023:
+![Collusion Networds 1993-2023](https://github.com/kuma-rtin/eurovision_voting/raw/main/visualizations/collusions_1993-2023.png "Collusion Networds 1993-2023")
+
+### Collusion Networks 1975-2023:
+![Collusion Networds 1975-2023](https://github.com/kuma-rtin/eurovision_voting/raw/main/visualizations/collusions_1975-2023.png "Collusion Networds 1975-2023")
+
+### Country pairs with a mean vote greater than 10:
+This is a boxplot for the points country A gave to country B (A => B) on average in all the song contests where both countries participated together more than 4 times.
+
+![High Mean Vote](https://github.com/kuma-rtin/eurovision_voting/raw/main/visualizations/MeanVotesGiven.png "High Mean Vote")
+
 
 ## References
 [1] Derek Gatherer. “Comparison of Eurovision Song Contest simulation with actual results reveals shifting
